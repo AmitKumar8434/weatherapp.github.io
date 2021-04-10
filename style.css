@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Indie Flower', cursive;
+    background-color: rgb(29, 167, 167);
+}
+form{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 5rem;
+}
+input,button{
+    padding: 10px;
+    height: 2.5rem;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+}
+input{
+    width: 13rem;
+}
+button{
+    width: 5rem;
+    background:rgb(82, 54, 240);
+    color: white;
+}
+button:hover{
+    font-size: 1.2rem;
+}
+button:active{
+    font-size: 0.7rem;
+}
+main{
+    padding: 0px;
+    margin: 20px auto;
+    color: white;
+    background-color: rgb(82, 54, 240);
+    justify-content: center;
+    width: 20rem;
+    height: 25rem;
+    border:none;
+    border-radius: 5%;
+    text-align: center;
+}
+.temp-icon{
+    height: 10rem;
+    cursor: pointer;
+}
+.temp-icon:hover{
+    opacity: 0.8;
+}
+.location{
+    font-size: 2rem;
+}
+.temp-value{
+    font-size: 2rem;
+}
+.climate{
+    font-size: 1.5rem;
+}
+
